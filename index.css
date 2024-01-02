@@ -1,0 +1,326 @@
+#header3{
+    text-align: left;
+    text-shadow: 0.5px 0.5px 0.2px rgb(205, 167, 167), 0.5px 0.5px 0.2px rgb(224, 170, 170);;
+    color: rgb(41, 44, 46);
+
+}
+
+#header2{
+    text-align: left;
+    text-shadow: 0.5px 0.5px 0.2px rgb(205, 167, 167), 0.5px 0.5px 0.2px rgb(224, 170, 170);;
+    color: brown;
+
+}
+
+#intro{
+    color: brown;
+}
+
+#header22{
+    text-align: right;
+    text-shadow: 0.5px 0.5px 0.2px rgb(205, 167, 167), 0.5px 0.5px 0.2px rgb(224, 170, 170);;
+    color: rgb(11, 71, 114);
+
+}
+
+
+/* ADDING ICONS*/
+.icons a{
+    text-decoration: none;
+    margin:20px;
+}
+
+.icons{
+    text-align:center;
+}
+
+.fa-brands.fa-instagram.fa-5x{
+    color: rgb(64, 5, 55);
+}
+.fa-brands.fa-instagram.fa-5x:hover{
+    color: hsl(323, 100%, 70%)
+}
+
+.fa-brands.fa-linkedin.fa-5x{
+
+    color: rgb(3, 4, 4);
+}
+
+.fa-brands.fa-linkedin.fa-5x:hover{
+
+    color: rgb(31, 44, 44);
+}
+
+.fa-brands.fa-twitter.fa-5x{
+
+    color: rgb(66, 144, 213);
+}
+
+.fa-brands.fa-twitter.fa-5x:hover{
+
+    color: hsl(180, 100%,  10%);
+}
+
+
+
+/* HOW TO IMAGE GALLERY*/
+*{
+    box-sizing: border-box;
+}
+
+.gallery {
+
+    display: inline-block;
+    border: 1px solid antiquewhite;
+    margin:5px;
+    width:100%;
+    text-align: center;
+}
+.gallery .description{
+
+    padding: 10px;
+    text-align: center;
+    font-size: 30px;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+    border: 3px inset antiquewhite;
+  
+}
+
+.gallery:hover {
+
+    border:5px inset hsl(0, 30%, 80%) ;
+}
+
+.gallery img{
+
+    width: 55%;
+}
+
+
+#mypicture{
+
+    color: rgb(69, 44, 44);
+    font-size: 30px; 
+    height:auto;
+    text-align: center;
+}
+
+#pic{
+    height: 300px;
+    width:auto;
+    text-align: center;
+}
+
+
+
+
+
+/*HOW TO NAVIGATION MENU*/
+#welcome {
+    color: antiquewhite;
+    border-style: solid;
+    border-width: 3px;
+    border-color: rgb(234, 216, 216);
+    border-radius: 10px;
+    background-color:rgb(137, 104, 104);
+    text-align: center;
+
+}
+
+
+.navbar ul{
+    list-style-type: none;
+    background-color:rgb(234, 216, 216);
+    padding: none;
+    margin: none;
+}
+
+.navbar a{
+    color: black;
+    text-decoration:none;
+    padding: 2px;
+    display:block ;
+    border: 3px solid antiquewhite;
+    border-radius: 5px;
+    text-align: center;
+    margin-left:20px;
+    margin-right: 50px;
+}
+
+.navbar a:hover{
+
+    background-color:hsl(0, 30%, 80%);
+}
+
+
+
+
+
+/* HOW TO DROPDOWN MENU*/
+
+.dropdown{
+    display: inline-block;
+}
+.dropdown button{
+    background-color:antiquewhite;
+    color: rgb(137, 104, 104);
+    padding: 10px 15px;
+    border: 3px inset antiquewhite;
+    cursor: pointer;
+}
+.dropdown a{
+    display: block;
+    color: rgb(137, 104, 104);
+    text-decoration: none;
+    border: 3px inset antiquewhite;
+    padding: 10px 15px;
+}
+.dropdown .content{
+    display: none;
+    position: absolute;
+    background-color: hsl(0, 0%, 95%);
+    min-width: 100px;
+    box-shadow: 2px 2px 5px hsla(0, 0%, 0%, 0.8);
+}
+.dropdown:hover .content{
+    display: block;
+}
+.dropdown:hover button{
+    background-color: hsl(0, 0%, 70%);
+}
+.dropdown a:hover{
+    background-color: hsl(0, 0%, 90%);
+}
+
+/*PAGINATION SECTION*/
+
+
+.pagination{
+
+    text-align: center;
+}
+
+.pagination a{
+
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    padding: 10px 12px;
+    display: inline-block;
+}
+
+.pagination a.active{
+    background-color:rgb(91, 62, 24) ;
+    font-weight: bold;
+    border-radius: 5px;
+}
+
+.pagination a:hover:not(.active){
+    background-color:rgb(91, 62, 24);
+    border-radius: 5px;
+ }
+
+
+#page{
+
+    background-color: antiquewhite;
+    text-align: center;
+    border:2px black;
+    text-shadow: 0.5px 0.5px 0.5px black;
+}
+
+
+
+
+
+/*NAME SECTION*/
+
+#name{
+
+    text-align: center;
+    color:rgb(69, 53, 53);
+}
+
+#nameint{
+    text-align: center;
+}
+
+#name::first-letter{
+
+    font-size:2em;
+    font-weight:bold;
+    font-style:italic;
+}
+#nameint::first-line{
+    background-color: rgb(234, 216, 216);
+}
+
+
+#nameint::before{
+    content: "😁";
+}
+
+#nameint::after{
+    content: "😁";
+}
+
+
+
+/*BUTTON*/
+
+#button{
+
+    color:black;
+    background-color:antiquewhite;
+    font-size: 1em;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+#button:hover{
+
+    color: black;
+    font-size: 1.1em;
+}
+
+#button:active{
+
+    color: rgb(62, 165, 238);
+    font-size: 1.1em;
+}
+
+#button:visited{
+
+    color:rgb(166, 146, 109);
+}
+
+
+
+
+body{
+
+background-color: rgb(184, 169, 150);
+}
+
+
+#position{
+    width: 200px;
+    height:200px;
+    background-color:blue;
+    position: relative;
+    top: 20px;
+    left: 20px;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+
+
+

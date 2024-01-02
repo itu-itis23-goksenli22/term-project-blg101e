@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="memory-game.css">
+    <script src="https://kit.fontawesome.com/d58caf7cf7.js" crossorigin="anonymous"></script>
+    <title>Memory Game</title>
+</head>
+
+<body id="memo">
+
+    <header>
+        <h1 id="welcome">Ahmet Hakan Gökşenli - Memory Game</h1>
+    </header>
+
+
+    <nav class="navbar">
+        <ul>
+            <li><a href="about-me.html">Home Page <i class="fa-solid fa-house" style="color: black;"></i></a></li>
+            <li><a href="memory-game.html">Memory Game <i class="fa-solid fa-memory" style="color:black;"></i></a></li>
+            <li><a href="about-me.html">Interests</a></li>
+            <li><a href="about-me.html">Personel Introduction</a></li>
+            <li><a href="about-me.html">Academix Interests</a></li>
+            <li><a href="mailto:goksenli22@itu.edu.tr">Contact</a></li>
+
+        </ul>
+    </nav>
+
+    <section id="memory-game" class="content-section">
+        <h2 id="playgame">PLAY MEMORY GAME FROM HERE</h2>
+
+        <div id="score-display">
+            <p>Score: <span id="score">0</span></p>
+        </div>
+
+        <button id="start-game-btn" onclick="startGame()">Start Game</button>
+        <button id="restart-btn" onclick="restartGame()" disabled>Restart</button>
+
+        <div id="game-container" class="memory-game-container">
+        </div>
+    </section>
+
+    <footer>
+        Web Page by Ahmet Hakan Gökşenli <br>
+            &copy; copyright reserved <br>
+            <a href = "mailto:goksenli22@itu.edu.tr">
+                For Contact
+                </a>
+            <small> <a href= "mailto:goksenli22@itu.edu.tr"> goksenli22@itu.edu.tr</a></small>
+            
+    </footer>
+
+    <script src="memory-game.js"></script>
+
+    
+    <p id="page"> This is page two.</p>
+
+        <div class= "pagination">
+
+            <a href="about-me.html"><<a>
+            <a href="about-me.html" >1<a>
+            <a href="memory-game.html" class="active">2<a>
+            <a href="memory-game.html">><a>
+                
+
+        </div>
+</body>
+
+</html>
